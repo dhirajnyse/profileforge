@@ -455,7 +455,7 @@ function sheetXml(profile) {
 <worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
   <sheetPr><pageSetUpPr fitToPage="1"/></sheetPr>
   <dimension ref="A1:C13"/>
-  <sheetViews><sheetView workbookViewId="0"/></sheetViews>
+  <sheetViews><sheetView workbookViewId="0" showGridLines="0"/></sheetViews>
   <sheetFormatPr defaultRowHeight="15"/>
   <cols>
     <col min="1" max="1" width="5.25" customWidth="1"/>
@@ -466,6 +466,7 @@ function sheetXml(profile) {
   <printOptions horizontalCentered="1"/>
   <pageMargins left="0.25" right="0.25" top="0.35" bottom="0.35" header="0.1" footer="0.1"/>
   <pageSetup paperSize="9" orientation="portrait" fitToWidth="1" fitToHeight="1" horizontalDpi="300" verticalDpi="300"/>
+  <headerFooter><oddFooter>&amp;L&amp;F&amp;C&amp;A&amp;R&amp;P/&amp;N</oddFooter></headerFooter>
 </worksheet>`;
 }
 
