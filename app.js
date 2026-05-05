@@ -465,7 +465,7 @@ function sheetXml(profile) {
   <sheetData>${rows}</sheetData>
   <printOptions horizontalCentered="1"/>
   <pageMargins left="0.25" right="0.25" top="0.35" bottom="0.35" header="0.1" footer="0.1"/>
-  <pageSetup paperSize="9" orientation="landscape" fitToWidth="1" fitToHeight="1" horizontalDpi="300" verticalDpi="300"/>
+  <pageSetup paperSize="9" orientation="portrait" fitToWidth="1" fitToHeight="1" horizontalDpi="300" verticalDpi="300"/>
 </worksheet>`;
 }
 
